@@ -1,0 +1,50 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.app-content {
+  max-width: 650px;
+  text-align: center;
+}
+
+.app-label {
+  color: #60a5fa;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.app-content h1 {
+  margin-top: 24px;
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.2;
+}
+
+.app-description {
+  margin-top: 20px;
+  color: #94a3b8;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 32px;
+  padding: 12px 18px;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  color: #cbd5e1;
+}
+
+.status-indicator {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #22c55e;
+}
